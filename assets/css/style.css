@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Raleway", sans-serif;
+  scroll-behavior: smooth;
+}
+/* Global section start */
+
+.font-size-10 {
+  font-size: 10px;
+  line-height: 30px;
+  color: #777777;
+  font-weight: 600;
+}
+
+.font-size-16 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.font-size-15b {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  font-weight: 500;
+
+  text-align: left;
+}
+.font-size-40 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #393535;
+}
+
+.font-size-14 {
+  font-size: 14px;
+  line-height: 25px;
+  color: white;
+  font-weight: 400;
+
+  text-align: center;
+}
+.font-size-15 {
+  font-size: 16px;
+  line-height: 25px;
+  color: #505050;
+  font-weight: 400;
+
+  text-align: left;
+}
+
+.font-size-50 {
+  font-size: 50px;
+  line-height: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bg-black {
+  background-color: rgb(61, 60, 60);
+}
+.bg-black-D {
+  background-color: rgb(32, 32, 32);
+}
+.bg-amber {
+  color: #ff7313;
+}
+.bg-amb {
+  background-color: #ff7313;
+}
+/* Global section end */
+/* Top header section start */
+#topsection .topButton {
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: 2px solid #ff7313;
+}
+
+#topsection .topButton:hover {
+  background-color: #ff7313;
+  color: white;
+}
+
+.ftco-navbar-light .social-media p a {
+  text-decoration: none;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #ff7313;
+}
+
+.ftco-navbar-light .social-media p a:hover {
+  background: #95adbe;
+}
+.ftco-navbar-light .logoTop {
+  margin-top: -40px;
+}
+.ftco-navbar-light .logoTop img {
+  height: 80px;
+  width: 130px;
+}
+
+#topsection .topRight {
+  margin-right: 12%;
+}
+#topsection .trapezoid {
+  border-bottom: 50px solid #ff7313;
+  border-left: 0px solid transparent;
+  border-right: 50px solid transparent;
+  height: 0px;
+  width: 500px;
+}
+/* Top header section end */
+/* nav Section Start */
+
+.ftco-navbar-light {
+  background: white;
+  z-index: 99999999;
+  padding: 14px;
+}
+a {
+  -webkit-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.fixed .logoTop img {
+  color: tomato;
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+}
+
+.ftco-navbar-light .navbar-nav .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1 !important;
+}
+.ftco-navbar-light .navbar-nav .nav-item .nav-link:before {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-left: 1%;
+  width: 0;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #ff7313;
+  margin-top: 2.5%;
+  opacity: 0;
+}
+.ftco-navbar-light .navbar-nav .nav-item .nav-link:hover:before {
+  opacity: 1;
+}
+/* Nav Section End */
+/* Banner Section Start */
+.slider img {
+  height: 80vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.largeLogo img {
+  height: 100%;
+  width: 75%;
+}
+/* Banner Section End */
+
+/* Welcome section start */
+.positionAbsolute {
+  margin-top: -180px;
+  margin-left: 95px;
+}
+.positionRelative img {
+  width: 100%;
+  height: 250px;
+}
+.positionRelative img {
+  width: 100%;
+  height: 250px;
+}
+.positionAbsolute img {
+  width: 100%;
+  height: 250px;
+}
+
+.welcomeButton1 {
+  background-color: #ff7313;
+  color: white;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: 2px solid #ff7313;
+}
+
+.welcomeButton1:hover {
+  background-color: white;
+  color: #ff7313;
+}
+
+.welcomeButton2 {
+  background-color: white;
+  color: #ff7313;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: 2px solid #ff7313;
+}
+
+.welcomeButton2:hover {
+  background-color: #ff7313;
+  color: white;
+}
+/* Welcome section End */
+
+/* What we do section start */
+
+.image-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+
+.image-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 180%;
+  height: 100%;
+  width: 75%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  transform: skew(45deg);
+  opacity: 0.7;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.image-card:hover:before {
+  left: -180%;
+}
+
+.image-card:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+  transition: 2s;
+}
+/* What we do section start */
+
+/* Choose Section Start */
+
+.quality,
+.guarantee {
+  height: 320px;
+  width: 120px;
+  background-image: linear-gradient(to top, rgb(8, 8, 8), rgb(102, 100, 100));
+}
+.quality img {
+  margin-top: 90%;
+  margin-left: 20%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.guarantee img {
+  display: flex;
+  margin-top: 90%;
+  margin-left: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.professional {
+  height: 320px;
+  width: 120px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(8, 8, 8),
+    rgb(102, 100, 100)
+  );
+}
+
+.professional img {
+  margin-top: 90%;
+  margin-left: 20%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+/* Choose Section End */
+
+/* roof section start */
+
+.jssorl-009-spin {
+  margin-top: -19px;
+  position: relative;
+  top: 50%;
+  width: 38px;
+  height: 38px;
+}
+
+.image-roof:hover img {
+  transform: scale(1.1);
+  transition: 2s;
+}
+/* roof section end */
+
+/* openion  section start */
+
+.icon img {
+  color: white;
+  width: 55px !important;
+  height: 55px;
+  padding: 10px;
+  background-color: #ff7313;
+  margin-bottom: -15px;
+  margin-right: -36px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* openion section end */
+
+/* follow us ssection start */
+
+.item .block {
+  z-index: 9;
+  height: 205px;
+  width: 218px;
+  background-color: #d4d4d4;
+  cursor: pointer;
+}
+
+.followInstagram {
+  background-color: black;
+  z-index: 999;
+  margin-left: 44%;
+  margin-top: -13%;
+  color: white;
+  padding: 15px;
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.font-size {
+  font-size: 30px;
+}
+/* follow us ssection end */
+
+/* newsletter section start */
+
+.newsletterButton {
+  color: white;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: 2px solid white;
+}
+
+.welcomeButton2:hover {
+  background-color: #ff7313;
+  color: white;
+}
+#newsSection {
+  margin-top: 200px;
+}
+/* newsletter section end */
+
+/* fotter section start */
+
+.socialMedia p a {
+  text-decoration: none;
+  color: white;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 8px;
+  border: 2px solid #ff7313;
+}
+
+.socialMedia p a:hover {
+  color: white;
+  background-color: #ff7313;
+}
+
+/* fotter section end */
